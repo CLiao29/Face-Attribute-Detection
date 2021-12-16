@@ -1,0 +1,2 @@
+model_checkpoint_path: "fotw_weights"
+all_model_checkpoint_paths: "fotw_weights"

@@ -10,10 +10,6 @@ from tensorflow.keras.callbacks import EarlyStopping , ModelCheckpoint
 
 
 class celeb_dataframe():
-    '''Wraps the celebA dataset, allowing an easy way to:
-       - Select the features of interest,
-       - Split the dataset into 'training', 'test' or 'validation' partition.
-    '''
     def __init__(self,main_folder = "data\celeba" , selected_features = [] , drop_features = []):
         self.main_folder = main_folder
         self.images_folder   = os.path.join(main_folder, 'img_align_celeba')
