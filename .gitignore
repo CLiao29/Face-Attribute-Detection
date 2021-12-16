@@ -1,4 +1,3 @@
 data/celeba/*
 data/fotw/*
-src/tf.ipynb
 src/train.py
